@@ -86,7 +86,7 @@ def parse_orders(text):
 
         for key in keys:
 
-            matches = re.findall(rf"(\\d*)\\s*{key}", text.lower())
+            matches = re.findall(rf"(\d*)\s*{key}", text.lower())
 
             for m in matches:
 
