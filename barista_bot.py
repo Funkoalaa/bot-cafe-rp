@@ -204,8 +204,8 @@ async def on_message(message):
                 f"🧾 **Votre commande :**\n"
                 f"{order_list}\n\n"
                 f"💰 **Total : {total}💰**\n\n"
-                f"Merci de payer avec DraftBot :\n"
-                f"`/pay Café {total}`\n\n"
+                f"Merci de payer avec UnbelievaBoat :\n"
+                f"`!!give-money @Barista {total}`\n\n"
                 f"Une fois le paiement effectué,\n"
                 f"écrivez simplement **payé** ici."
             )
